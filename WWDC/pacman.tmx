@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="42" height="32" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="food" tilewidth="24" tileheight="24">
+  <image source="food.jpg" width="24" height="24"/>
+ </tileset>
+ <tileset firstgid="2" name="green" tilewidth="24" tileheight="24">
+  <image source="green.png" width="553" height="47"/>
+ </tileset>
+ <tileset firstgid="25" name="blue" tilewidth="24" tileheight="24">
+  <image source="blue.png" width="553" height="47"/>
+ </tileset>
+ <tileset firstgid="48" name="pink" tilewidth="24" tileheight="24">
+  <image source="pink.png" width="553" height="47"/>
+ </tileset>
+ <tileset firstgid="71" name="orange" tilewidth="24" tileheight="24">
+  <image source="orange.png" width="553" height="47"/>
+ </tileset>
+ <layer name="Background" width="42" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztll1ugzAMgM3LJm2ld1i79gwTP2eYgB0gR+MoOdrsxmk9K5BogmjS8vApTQLoq4ltKgCoCoVCofArXpAjUgOY0D6uW79/Qi44Py086www0z6OtkW6FXDffOI90wqjcEKHmcegp9y/8jVXXtNceB1H0y1c46H9KXKN3N/Ls8GxD9DyM6Tn4H6H4hn02NLTr6Hv3Ck/7RmLaw5P79ULv//kecA55fdrgifnN7zzek7Ptbn21F7Fc3/PxjlRvsMWntiXDPcdkPPDw/fu+eb6Eo2WzynwOfX5ZD7YTyN9vd+4XD+N9kz4P3fPGHv0o4NziFKLuMXA/j+3XN81vevvt7hifzeR/h6NSSEPT+I7r4JHrT9zTlE/b/g3fV+MiWd6L44LNakTOTRxrgwO+9c9ia/EurIFvvfLOhvzHOBnDueIa6jWak/qjz2vher3kOG8pnhSPHvlkvu91+6922fx7rj2W98zqZ+36r4hUxwLaXwDPPTAuQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="42" height="32">
+  <object name="SpawnPoint" x="528" y="72" width="24" height="24"/>
+ </objectgroup>
+</map>

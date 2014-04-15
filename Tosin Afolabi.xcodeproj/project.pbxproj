@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC3604218FB23E100CF32A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3604118FB23E100CF32A6 /* Foundation.framework */; };
+		4EC3604418FB23E100CF32A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3604318FB23E100CF32A6 /* CoreGraphics.framework */; };
+		4EC3604618FB23E100CF32A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3604518FB23E100CF32A6 /* UIKit.framework */; };
+		4EC3604C18FB23E100CF32A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EC3604A18FB23E100CF32A6 /* InfoPlist.strings */; };
+		4EC3604E18FB23E100CF32A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3604D18FB23E100CF32A6 /* main.m */; };
+		4EC3605218FB23E100CF32A6 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3605118FB23E100CF32A6 /* TAAppDelegate.m */; };
+		4EC3605418FB23E100CF32A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC3605318FB23E100CF32A6 /* Images.xcassets */; };
+		4EC3605B18FB23E100CF32A6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3605A18FB23E100CF32A6 /* XCTest.framework */; };
+		4EC3605C18FB23E100CF32A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3604118FB23E100CF32A6 /* Foundation.framework */; };
+		4EC3605D18FB23E100CF32A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3604518FB23E100CF32A6 /* UIKit.framework */; };
+		4EC3606518FB23E100CF32A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EC3606318FB23E100CF32A6 /* InfoPlist.strings */; };
+		4EC3606718FB23E100CF32A6 /* WWDCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3606618FB23E100CF32A6 /* WWDCTests.m */; };
+		4EC3607218FB240E00CF32A6 /* TAProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3607118FB240E00CF32A6 /* TAProjectViewController.m */; };
+		4EC3608318FBFE2C00CF32A6 /* TATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3608218FBFE2C00CF32A6 /* TATransition.m */; };
+		4EC360D818FC417700CF32A6 /* TAGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC360D718FC417700CF32A6 /* TAGameViewController.m */; };
+		4EC360DB18FC41A500CF32A6 /* TAGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC360DA18FC41A500CF32A6 /* TAGameScene.m */; };
+		4EC360DD18FC41BA00CF32A6 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC360DC18FC41BA00CF32A6 /* SpriteKit.framework */; };
+		4EC360E118FC432600CF32A6 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC360E018FC432600CF32A6 /* JSTileMap.m */; };
+		4EC360E918FC438100CF32A6 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC360E318FC438100CF32A6 /* blue.png */; };
+		4EC360EA18FC438100CF32A6 /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EC360E418FC438100CF32A6 /* food.jpg */; };
+		4EC360EB18FC438100CF32A6 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC360E518FC438100CF32A6 /* green.png */; };
+		4EC360EC18FC438100CF32A6 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC360E618FC438100CF32A6 /* orange.png */; };
+		4EC360EE18FC438100CF32A6 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC360E818FC438100CF32A6 /* pink.png */; };
+		4EC360F118FC451100CF32A6 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC360F018FC451100CF32A6 /* LFCGzipUtility.m */; };
+		4EC360F318FC455200CF32A6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC360F218FC455200CF32A6 /* libz.dylib */; };
+		4EC3619518FC564400CF32A6 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC3619418FC564400CF32A6 /* pacman.png */; };
+		4EC3619718FC578100CF32A6 /* pacman.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4EC3619618FC578100CF32A6 /* pacman.tmx */; };
+		4EC3619A18FC9E1300CF32A6 /* TAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3619918FC9E1300CF32A6 /* TAHomeViewController.m */; };
+		4EC361A018FC9FEA00CF32A6 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC3619F18FC9FEA00CF32A6 /* profile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC3605E18FB23E100CF32A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC3603618FB23E100CF32A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC3603D18FB23E100CF32A6;
+			remoteInfo = WWDC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC3603E18FB23E100CF32A6 /* Tosin Afolabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tosin Afolabi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC3604118FB23E100CF32A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EC3604318FB23E100CF32A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EC3604518FB23E100CF32A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EC3604918FB23E100CF32A6 /* Tosin Afolabi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tosin Afolabi-Info.plist"; sourceTree = "<group>"; };
+		4EC3604B18FB23E100CF32A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EC3604D18FB23E100CF32A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EC3604F18FB23E100CF32A6 /* Tosin Afolabi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tosin Afolabi-Prefix.pch"; sourceTree = "<group>"; };
+		4EC3605018FB23E100CF32A6 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		4EC3605118FB23E100CF32A6 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		4EC3605318FB23E100CF32A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EC3605918FB23E100CF32A6 /* Tosin AfolabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tosin AfolabiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC3605A18FB23E100CF32A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4EC3606218FB23E100CF32A6 /* WWDCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWDCTests-Info.plist"; sourceTree = "<group>"; };
+		4EC3606418FB23E100CF32A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EC3606618FB23E100CF32A6 /* WWDCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDCTests.m; sourceTree = "<group>"; };
+		4EC3607018FB240E00CF32A6 /* TAProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAProjectViewController.h; sourceTree = "<group>"; };
+		4EC3607118FB240E00CF32A6 /* TAProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAProjectViewController.m; sourceTree = "<group>"; };
+		4EC3608118FBFE2C00CF32A6 /* TATransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATransition.h; sourceTree = "<group>"; };
+		4EC3608218FBFE2C00CF32A6 /* TATransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATransition.m; sourceTree = "<group>"; };
+		4EC360D618FC417700CF32A6 /* TAGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGameViewController.h; sourceTree = "<group>"; };
+		4EC360D718FC417700CF32A6 /* TAGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGameViewController.m; sourceTree = "<group>"; };
+		4EC360D918FC41A500CF32A6 /* TAGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGameScene.h; sourceTree = "<group>"; };
+		4EC360DA18FC41A500CF32A6 /* TAGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGameScene.m; sourceTree = "<group>"; };
+		4EC360DC18FC41BA00CF32A6 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4EC360DF18FC432600CF32A6 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		4EC360E018FC432600CF32A6 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		4EC360E318FC438100CF32A6 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		4EC360E418FC438100CF32A6 /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		4EC360E518FC438100CF32A6 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		4EC360E618FC438100CF32A6 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		4EC360E818FC438100CF32A6 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		4EC360EF18FC451100CF32A6 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		4EC360F018FC451100CF32A6 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		4EC360F218FC455200CF32A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4EC3619418FC564400CF32A6 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		4EC3619618FC578100CF32A6 /* pacman.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pacman.tmx; sourceTree = "<group>"; };
+		4EC3619818FC9E1300CF32A6 /* TAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHomeViewController.h; sourceTree = "<group>"; };
+		4EC3619918FC9E1300CF32A6 /* TAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHomeViewController.m; sourceTree = "<group>"; };
+		4EC3619F18FC9FEA00CF32A6 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		4EC361A118FCA77E00CF32A6 /* iOS Simulator Screen shot 15 Apr 2014 00.31.21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot 15 Apr 2014 00.31.21.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC3603B18FB23E100CF32A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC360F318FC455200CF32A6 /* libz.dylib in Frameworks */,
+				4EC360DD18FC41BA00CF32A6 /* SpriteKit.framework in Frameworks */,
+				4EC3604418FB23E100CF32A6 /* CoreGraphics.framework in Frameworks */,
+				4EC3604618FB23E100CF32A6 /* UIKit.framework in Frameworks */,
+				4EC3604218FB23E100CF32A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC3605618FB23E100CF32A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC3605B18FB23E100CF32A6 /* XCTest.framework in Frameworks */,
+				4EC3605D18FB23E100CF32A6 /* UIKit.framework in Frameworks */,
+				4EC3605C18FB23E100CF32A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC3603518FB23E100CF32A6 = {
+			isa = PBXGroup;
+			children = (
+				4EC361A118FCA77E00CF32A6 /* iOS Simulator Screen shot 15 Apr 2014 00.31.21.png */,
+				4EC3604718FB23E100CF32A6 /* WWDC */,
+				4EC3606018FB23E100CF32A6 /* WWDCTests */,
+				4EC3604018FB23E100CF32A6 /* Frameworks */,
+				4EC3603F18FB23E100CF32A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC3603F18FB23E100CF32A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC3603E18FB23E100CF32A6 /* Tosin Afolabi.app */,
+				4EC3605918FB23E100CF32A6 /* Tosin AfolabiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC3604018FB23E100CF32A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC360F218FC455200CF32A6 /* libz.dylib */,
+				4EC360DC18FC41BA00CF32A6 /* SpriteKit.framework */,
+				4EC3604118FB23E100CF32A6 /* Foundation.framework */,
+				4EC3604318FB23E100CF32A6 /* CoreGraphics.framework */,
+				4EC3604518FB23E100CF32A6 /* UIKit.framework */,
+				4EC3605A18FB23E100CF32A6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EC3604718FB23E100CF32A6 /* WWDC */ = {
+			isa = PBXGroup;
+			children = (
+				4EC3605018FB23E100CF32A6 /* TAAppDelegate.h */,
+				4EC3605118FB23E100CF32A6 /* TAAppDelegate.m */,
+				4EC3619818FC9E1300CF32A6 /* TAHomeViewController.h */,
+				4EC3619918FC9E1300CF32A6 /* TAHomeViewController.m */,
+				4EC3608118FBFE2C00CF32A6 /* TATransition.h */,
+				4EC3608218FBFE2C00CF32A6 /* TATransition.m */,
+				4EC3607018FB240E00CF32A6 /* TAProjectViewController.h */,
+				4EC3607118FB240E00CF32A6 /* TAProjectViewController.m */,
+				4EC360D618FC417700CF32A6 /* TAGameViewController.h */,
+				4EC360D718FC417700CF32A6 /* TAGameViewController.m */,
+				4EC360D918FC41A500CF32A6 /* TAGameScene.h */,
+				4EC360DA18FC41A500CF32A6 /* TAGameScene.m */,
+				4EC3619F18FC9FEA00CF32A6 /* profile.png */,
+				4EC3605318FB23E100CF32A6 /* Images.xcassets */,
+				4EC360E218FC436300CF32A6 /* Game Resources */,
+				4EC3604818FB23E100CF32A6 /* Supporting Files */,
+			);
+			path = WWDC;
+			sourceTree = "<group>";
+		};
+		4EC3604818FB23E100CF32A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC3604918FB23E100CF32A6 /* Tosin Afolabi-Info.plist */,
+				4EC3604A18FB23E100CF32A6 /* InfoPlist.strings */,
+				4EC3604D18FB23E100CF32A6 /* main.m */,
+				4EC3604F18FB23E100CF32A6 /* Tosin Afolabi-Prefix.pch */,
+				4EC360DE18FC430300CF32A6 /* JSTileMap */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC3606018FB23E100CF32A6 /* WWDCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC3606618FB23E100CF32A6 /* WWDCTests.m */,
+				4EC3606118FB23E100CF32A6 /* Supporting Files */,
+			);
+			path = WWDCTests;
+			sourceTree = "<group>";
+		};
+		4EC3606118FB23E100CF32A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC3606218FB23E100CF32A6 /* WWDCTests-Info.plist */,
+				4EC3606318FB23E100CF32A6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC360DE18FC430300CF32A6 /* JSTileMap */ = {
+			isa = PBXGroup;
+			children = (
+				4EC360DF18FC432600CF32A6 /* JSTileMap.h */,
+				4EC360E018FC432600CF32A6 /* JSTileMap.m */,
+				4EC360EF18FC451100CF32A6 /* LFCGzipUtility.h */,
+				4EC360F018FC451100CF32A6 /* LFCGzipUtility.m */,
+			);
+			name = JSTileMap;
+			sourceTree = "<group>";
+		};
+		4EC360E218FC436300CF32A6 /* Game Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EC360E318FC438100CF32A6 /* blue.png */,
+				4EC3619618FC578100CF32A6 /* pacman.tmx */,
+				4EC360E418FC438100CF32A6 /* food.jpg */,
+				4EC3619418FC564400CF32A6 /* pacman.png */,
+				4EC360E518FC438100CF32A6 /* green.png */,
+				4EC360E618FC438100CF32A6 /* orange.png */,
+				4EC360E818FC438100CF32A6 /* pink.png */,
+			);
+			name = "Game Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC3603D18FB23E100CF32A6 /* Tosin Afolabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC3606A18FB23E100CF32A6 /* Build configuration list for PBXNativeTarget "Tosin Afolabi" */;
+			buildPhases = (
+				4EC3603A18FB23E100CF32A6 /* Sources */,
+				4EC3603B18FB23E100CF32A6 /* Frameworks */,
+				4EC3603C18FB23E100CF32A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tosin Afolabi";
+			productName = WWDC;
+			productReference = 4EC3603E18FB23E100CF32A6 /* Tosin Afolabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC3605818FB23E100CF32A6 /* Tosin AfolabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC3606D18FB23E100CF32A6 /* Build configuration list for PBXNativeTarget "Tosin AfolabiTests" */;
+			buildPhases = (
+				4EC3605518FB23E100CF32A6 /* Sources */,
+				4EC3605618FB23E100CF32A6 /* Frameworks */,
+				4EC3605718FB23E100CF32A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC3605F18FB23E100CF32A6 /* PBXTargetDependency */,
+			);
+			name = "Tosin AfolabiTests";
+			productName = WWDCTests;
+			productReference = 4EC3605918FB23E100CF32A6 /* Tosin AfolabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC3603618FB23E100CF32A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tosin Afolabi";
+				TargetAttributes = {
+					4EC3603D18FB23E100CF32A6 = {
+						DevelopmentTeam = 3XXD9JUN7B;
+					};
+					4EC3605818FB23E100CF32A6 = {
+						TestTargetID = 4EC3603D18FB23E100CF32A6;
+					};
+				};
+			};
+			buildConfigurationList = 4EC3603918FB23E100CF32A6 /* Build configuration list for PBXProject "Tosin Afolabi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EC3603518FB23E100CF32A6;
+			productRefGroup = 4EC3603F18FB23E100CF32A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC3603D18FB23E100CF32A6 /* Tosin Afolabi */,
+				4EC3605818FB23E100CF32A6 /* Tosin AfolabiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC3603C18FB23E100CF32A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC3604C18FB23E100CF32A6 /* InfoPlist.strings in Resources */,
+				4EC3605418FB23E100CF32A6 /* Images.xcassets in Resources */,
+				4EC360EB18FC438100CF32A6 /* green.png in Resources */,
+				4EC361A018FC9FEA00CF32A6 /* profile.png in Resources */,
+				4EC360E918FC438100CF32A6 /* blue.png in Resources */,
+				4EC3619718FC578100CF32A6 /* pacman.tmx in Resources */,
+				4EC360EE18FC438100CF32A6 /* pink.png in Resources */,
+				4EC360EA18FC438100CF32A6 /* food.jpg in Resources */,
+				4EC360EC18FC438100CF32A6 /* orange.png in Resources */,
+				4EC3619518FC564400CF32A6 /* pacman.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC3605718FB23E100CF32A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC3606518FB23E100CF32A6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC3603A18FB23E100CF32A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC3604E18FB23E100CF32A6 /* main.m in Sources */,
+				4EC360DB18FC41A500CF32A6 /* TAGameScene.m in Sources */,
+				4EC3608318FBFE2C00CF32A6 /* TATransition.m in Sources */,
+				4EC360E118FC432600CF32A6 /* JSTileMap.m in Sources */,
+				4EC3619A18FC9E1300CF32A6 /* TAHomeViewController.m in Sources */,
+				4EC3605218FB23E100CF32A6 /* TAAppDelegate.m in Sources */,
+				4EC360D818FC417700CF32A6 /* TAGameViewController.m in Sources */,
+				4EC360F118FC451100CF32A6 /* LFCGzipUtility.m in Sources */,
+				4EC3607218FB240E00CF32A6 /* TAProjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC3605518FB23E100CF32A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC3606718FB23E100CF32A6 /* WWDCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC3605F18FB23E100CF32A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC3603D18FB23E100CF32A6 /* Tosin Afolabi */;
+			targetProxy = 4EC3605E18FB23E100CF32A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC3604A18FB23E100CF32A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC3604B18FB23E100CF32A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EC3606318FB23E100CF32A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC3606418FB23E100CF32A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC3606818FB23E100CF32A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EC3606918FB23E100CF32A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC3606B18FB23E100CF32A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC/Tosin Afolabi-Prefix.pch";
+				INFOPLIST_FILE = "WWDC/Tosin Afolabi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Tosin Afolabi";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EC3606C18FB23E100CF32A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC/Tosin Afolabi-Prefix.pch";
+				INFOPLIST_FILE = "WWDC/Tosin Afolabi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Tosin Afolabi";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4EC3606E18FB23E100CF32A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWDC.app/WWDC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC/WWDC-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WWDCTests/WWDCTests-Info.plist";
+				PRODUCT_NAME = "Tosin AfolabiTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4EC3606F18FB23E100CF32A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWDC.app/WWDC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC/WWDC-Prefix.pch";
+				INFOPLIST_FILE = "WWDCTests/WWDCTests-Info.plist";
+				PRODUCT_NAME = "Tosin AfolabiTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC3603918FB23E100CF32A6 /* Build configuration list for PBXProject "Tosin Afolabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC3606818FB23E100CF32A6 /* Debug */,
+				4EC3606918FB23E100CF32A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC3606A18FB23E100CF32A6 /* Build configuration list for PBXNativeTarget "Tosin Afolabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC3606B18FB23E100CF32A6 /* Debug */,
+				4EC3606C18FB23E100CF32A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC3606D18FB23E100CF32A6 /* Build configuration list for PBXNativeTarget "Tosin AfolabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC3606E18FB23E100CF32A6 /* Debug */,
+				4EC3606F18FB23E100CF32A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC3603618FB23E100CF32A6 /* Project object */;
+}
